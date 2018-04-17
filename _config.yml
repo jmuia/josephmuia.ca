@@ -1,0 +1,28 @@
+title: Joseph Muia
+baseurl: ""
+url: "https://josephmuia.ca"
+
+github: https://github.com/jmuia
+linkedin: https://ca.linkedin.com/in/josephmuia/
+
+# Build settings
+plugins:
+  - jekyll-feed
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
+
+permalink: /:year-:month-:day-:title/
+
+sass:
+  style: :compressed
+
