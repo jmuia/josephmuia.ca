@@ -24,19 +24,45 @@ body {
 h1,
 h2,
 h3 {
-  line-height:1.2;
+  line-height: 1.2;
 }
 
-header h2, div {
+header div {
   display: inline-block;
 }
 
 header h2 {
   color: #444;
   margin-right: 0.6em;
+  display: inline-block;
 }
 
 .idx-post {
   margin-right: 0.6em;
+}
+
+blockquote {
+  border-left: 0.1em solid #dfe2e5;
+  padding: 0 1em;
+  color: #777;
+}
+
+code {
+  background-color: #eaecef;
+  border-radius: 0.2em;
+  padding: 0.2em 0.4em;
+  font-size: 80%;
+}
+
+.highlight pre {
+    overflow: auto;
+    background-color: #eaecef;
+    border-radius: 0.2em;
+    padding: 0.4em 1em;
+}
+
+.highlight pre code {
+  padding: 0;
+  background-color: inherit;
 }
 
