@@ -87,7 +87,7 @@ int main(int argc, char *argv[]) {
 }
 ```
 
-It just seemed to hang at `recv()` (i.e. it didn't receive a response). Shouldn't the error propogate? I tried sending more packets as well. Nothing.
+It just seemed to hang at `recv()` (i.e. it didn't receive a response). Shouldn't the error propagate? I tried sending more packets as well. Nothing.
 
 I checked Wireshark for my outgoing UDP packet and for incoming ICMP time-exceeded messages.
 ```
