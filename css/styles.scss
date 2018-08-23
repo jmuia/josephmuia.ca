@@ -31,10 +31,11 @@ header div {
   display: inline-block;
 }
 
-header h2 {
+header a#header-home {
   color: #444;
   margin-right: 0.6em;
-  display: inline-block;
+  font-weight: bold;
+  text-decoration: none;
 }
 
 blockquote {
@@ -62,3 +63,7 @@ code {
   background-color: inherit;
 }
 
+ul#markdown-toc,
+ul#markdown-toc ul {
+  list-style: none
+}
