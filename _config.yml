@@ -10,7 +10,7 @@ plugins:
   - jekyll-feed
 
 markdown: kramdown
-highligher: rouge
+highlighter: rouge
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
@@ -28,4 +28,8 @@ permalink: /:year-:month-:day-:title/
 
 sass:
   style: :compressed
+
+
+kramdown:
+  toc_levels: "1,2"
 
