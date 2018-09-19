@@ -160,7 +160,7 @@ One step closer to pinging the Internet.
 
 # NAT and packet forwarding
 
-I'm going to use NAT and packet forwarding to connect to the Internet from `netns0`. An alternative would've been to create a network bridge including `veth-netns0` and another Internet-connected device in the default namespace.
+I'm going to use NAT and packet forwarding to connect to the Internet from `netns0`. An alternative would've been to create a network bridge including `veth-netns0` and another Internet-connected device in the default namespace (edit: I think I still need to set up NAT if I want to talk to the Internet).
 
 This is my first time _actually_ setting up a NAT!
 
